@@ -127,5 +127,6 @@ def main(args, error):
             exit(1)
 
     if args.demo:
-        _, _, demofun = test_list[args.demo[0], 'demo']
+        print(test_list[args.demo[0], 'demo'])
+        _, _, _, demofun = test_list[args.demo[0], 'demo']
         exit(demofun(args.demo[1:]))
