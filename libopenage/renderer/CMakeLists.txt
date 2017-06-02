@@ -8,6 +8,10 @@ add_sources(libopenage
   vertex_buffer.cpp
   buffer.cpp
   vertex_state.cpp
+  renderer.h
+  game_renderer.cpp
+  terrain_renderer.cpp
+  camera.cpp
 )
 
 pxdgen(
